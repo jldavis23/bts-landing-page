@@ -5,14 +5,18 @@
     font-family: 'Outfit', sans-serif;
 }
 
-/* --------- SMALL SCREENS --------- */
-
-#logo {
-    display: none;
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f76b05;
+    transition: 0.3s;
 }
 
-header nav ul li {
-    padding: 10px;
+button:hover {
+    cursor: pointer;
+    color: #f76b05;
+    background-color: #fff;
 }
 
 /* --------- HEADER ---------  */
@@ -31,7 +35,7 @@ header img {
 
 header nav ul li {
     list-style: none;
-    
+    padding: 10px;
 }
 
 header nav ul li a {
@@ -44,6 +48,10 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: #f76b05;
+}
+
+#logo {
+    display: none;
 }
 
 /* --------- BANNER ---------  */
@@ -78,17 +86,6 @@ header nav ul li a:hover {
 
 .banner button {
     margin: 30px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 20px;
-    background-color: #f76b05;
-    transition: 0.3s;
-}
-
-.banner button:hover {
-    cursor: pointer;
-    color: #f76b05;
-    background-color: #fff;
 }
 
 /* ------- EVENT DETAILS ------- */
@@ -118,7 +115,7 @@ div.details-text h3 {
 }
 
 div.details-text p {
-    margin-bottom: 10px;
+    margin: 20px 0;
     line-height: 30px;
 }
 
