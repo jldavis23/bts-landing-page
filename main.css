@@ -9,14 +9,17 @@ button {
     padding: 10px 15px;
     border: none;
     border-radius: 20px;
-    background-color: #f76b05;
     transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #f76b05;
+    color: #f76b05;
+    
 }
 
 button:hover {
     cursor: pointer;
-    color: #f76b05;
-    background-color: #fff;
+    color: #fff;
+    background-color: #f76b05
 }
 
 ul {
