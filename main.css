@@ -19,11 +19,14 @@ button:hover {
     background-color: #fff;
 }
 
+ul {
+    list-style: none;
+}
+
 /* --------- HEADER ---------  */
 
 header {
     background-color: #000009;
-    /* position: fixed; */
     width: 100%;
     text-align: center;
 }
@@ -34,7 +37,6 @@ header img {
 }
 
 header nav ul li {
-    list-style: none;
     padding: 10px;
 }
 
@@ -127,6 +129,42 @@ div.details-img img {
     width: 100%;
 }
 
+/* ------- FOOTER ------- */
+
+footer {
+    background-color: #000009;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper {
+    max-width: 1000px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+
+}
+
+footer ul li a {
+    text-decoration: underline;
+    color: #fff;
+    padding: 15px;
+    display: block;
+}
+
+footer p {
+    color: #fff;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+
 /* ------- MEDIUM SCREENS ------- */
 
 @media only screen and (min-width: 700px) {
@@ -158,5 +196,10 @@ div.details-img img {
 
     header nav ul li {
         padding: 20px;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        justify-content: space-between;
     }
 }
