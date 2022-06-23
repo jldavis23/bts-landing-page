@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
 /* --------- SMALL SCREENS --------- */
@@ -73,6 +73,7 @@ header nav ul li a:hover {
 
 .banner h2 {
     color: #fff;
+    font-weight: 200;
 }
 
 .banner button {
@@ -89,6 +90,55 @@ header nav ul li a:hover {
     color: #f76b05;
     background-color: #fff;
 }
+
+/* ------- EVENT DETAILS ------- */
+
+section.details {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+div.details-wrapper {
+    max-width: 1000px;
+}
+
+div.details-text {
+    margin: 20px;
+}
+
+div.details-text h2 {
+    margin-bottom: 5px;
+}
+
+div.details-text h3 {
+    color: #f76b05;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+div.details-text p {
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+div.details-img {
+    margin: 15px;
+}
+
+div.details-img img {
+    width: 100%;
+}
+
+/* ------- MEDIUM SCREENS ------- */
+
+@media only screen and (min-width: 700px) {
+    div.details-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 
 /* ------- LARGE SCREENS ------- */
 
