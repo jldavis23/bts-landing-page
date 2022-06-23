@@ -8,7 +8,10 @@
 /* --------- HEADER ---------  */
 
 header {
-    background-color: rgb(10, 10, 10);
+    /* background-color: rgba(10, 10, 10, 0.62); */
+    position: fixed;
+    width: 100%;
+    border-bottom: #fff;
 }
 
 header nav ul {
@@ -37,8 +40,52 @@ header nav ul li a {
     background-color: rgb(10, 10, 10);
     display: block;
     padding: 0.25rem;
+    transition: 0.3s;
 }
 
 header nav ul li a:hover {
-    color: yellow;
+    color: #f76b05;
+}
+
+/* --------- BANNER ---------  */
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("images/bts-banner.jpeg");
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text-wrapper {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.banner h2 {
+    color: #fff;
+}
+
+.banner button {
+    margin: 30px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f76b05;
+    transition: 0.3s;
+}
+
+.banner button:hover {
+    cursor: pointer;
+    color: #f76b05;
+    background-color: #fff;
 }
