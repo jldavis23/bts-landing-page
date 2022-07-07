@@ -11,9 +11,9 @@ button {
     border-radius: 20px;
     transition: 0.3s;
     background-color: rgba(0, 0, 0, 0);
-    border: 1px solid #f76b05;
+    border: 2px solid #f76b05;
     color: #f76b05;
-    
+    font-weight: 500;
 }
 
 button:hover {
@@ -147,10 +147,6 @@ footer {
 footer ul {
     display: flex;
     justify-content: center;
-}
-
-footer ul li {
-
 }
 
 footer ul li a {
